@@ -1,4 +1,26 @@
-venv*/
+# Python
 __pycache__/
 *.pyc
+
+# macOS
 .DS_Store
+
+# virtual environments
+venv/
+venv_*/
+
+# datasets
+webcam_dataset/
+lstm_data_webcam/
+normalized_landmarks/
+normalized_landmarks_webcam/
+
+# models
+*.h5
+*.pkl
+*.npz
+
+# videos
+*.mp4
+*.avi
+*.mov
