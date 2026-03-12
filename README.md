@@ -1,2 +1,3 @@
 # GestureLink--ISL---Regional-Two-Way-Conversion-
-Two way conversion between ISL and regional languages for inclusion of all
+Pretrained models are not included due to GitHub size limits.
+They can be regenerated using the training scripts provided.
