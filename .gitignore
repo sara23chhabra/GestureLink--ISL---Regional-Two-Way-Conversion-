@@ -24,3 +24,10 @@ normalized_landmarks_webcam/
 *.mp4
 *.avi
 *.mov
+
+*.h5
+*.pkl
+*.npz
+*.mp4
+test_*.py
+training_history.pkl
