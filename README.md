@@ -218,8 +218,3 @@ These scripts can be used to retrain the models with new datasets.
 - Accessibility technologies
 - Human-computer interaction systems
 
----
-
-## Author
-
-**Sara Chhabra**
