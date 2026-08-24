@@ -6,7 +6,7 @@ Demo: https://drive.google.com/drive/u/0/folders/1fvkCI3RpWTsxowX3qRkHkokkA7hcXm
 GestureLink: ISL ↔ Regional Language Two-Way Communication System
 GestureLink is an AI-powered system designed to enable two-way communication between Indian Sign Language (ISL) users and non-signers.
 The system supports both:
-ISL gestures → spoken language
+ISL gestures → spoken language,
 Regional speech → ISL gestures
 It integrates computer vision, machine learning, speech recognition, and translation into a single interactive interface built with Streamlit.
 
