@@ -143,11 +143,41 @@ cd GestureLink--ISL---Regional-Two-Way-Conversion-
 pip install -r requirements_app.txt
 ```
 
-### 3. Launch the Application
+
+### Prerequisites
+
+The current application was developed and tested using **Python 3.9**.
+
+The project uses separate virtual environments because some components have different dependency requirements.
+
+The environments used by the application are:
+
+| Environment | Purpose |
+|-------------|---------|
+| `venv_live` | Streamlit, MediaPipe, OpenCV, TensorFlow/Keras and gesture recognition |
+| `venv_pipeline2` | Speech recognition pipeline |
+| `venv_nlp` | Sentence normalization using Ollama |
+| `venv_tts` | Hindi text-to-speech |
+
+The main `app.py` application automatically invokes the appropriate environment for the individual pipelines.
+
+### Start the Application
+
+Activate the environment containing the Streamlit application:
+
+```bash
+source venv_live/bin/activate
+```
+
+Then launch Streamlit:
 
 ```bash
 streamlit run app.py
 ```
+
+The application will open in the browser.
+
+> **Note:** The virtual environments listed above are local development environments and are not included in the GitHub repository. A new installation requires the corresponding dependencies to be configured separately.
 
 ---
 
